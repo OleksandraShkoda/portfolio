@@ -5,6 +5,8 @@ import '../../components/Layout/index.scss'
 import './Home.scss'
 import { useState } from "react";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
+import Logo from "../Logo/Logo";
+import Loader from "react-loaders";
 
 
 const Home = () => { 
@@ -18,12 +20,13 @@ const Home = () => {
            return setLetterClass('text-animate-hover')
         },4000)
     },[])
-    return (
+    return (<>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
                     <span className={`${letterClass} _1`}>H</span>
                     <span className={`${letterClass} _2`}>i! </span>
+                    <span> </span>
                     <span className={`${letterClass} _3`}> I</span>
                     <span className={`${letterClass} _4`}>`m </span>
                     <br />
@@ -36,7 +39,10 @@ const Home = () => {
                 <h2> Frontend Developer / JavaScript / React / TypeScript </h2>
                 <Link to = "/contacts" className = "flat-button">CONTACT ME</Link>
             </div>
+            <Logo/>
         </div>
+        <Loader type="pacman"/>
+        </>
         )
 }
 export default Home;
