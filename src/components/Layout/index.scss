@@ -37,7 +37,8 @@
     animation-delay: 1s;
 }
 
-.about-page{
+.about-page,
+.contact-page{
     .text-zone{
       position: absolute;  
       left: 10%;
@@ -49,13 +50,13 @@
       max-height: 90%;
 
 h1{
-   font-size: 53px;
+   font-size: 45px;
    font-family: 'Coolvetica';
    color:#ffd700 ;
    font-weight: 400;
-   margin-top: 0;
+   margin-top: 20px;
+   margin-bottom: 0px;
    position: relative;
-   margin-bottom: 40px;
    left:10px;
   
    &::before{
@@ -79,7 +80,6 @@ h1{
     opacity: 0.6;
 }
 }
-
 p {
     color:#fff;
     font-style: 13px;
@@ -98,7 +98,7 @@ p {
     animation-delay: 1.3s;
 }
 }
-
+  }  
 .text-animate-hover{
 &:hover{
     color:#fff;
@@ -106,4 +106,4 @@ p {
 }
     }
 
-}
+
