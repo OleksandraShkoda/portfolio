@@ -127,10 +127,10 @@ $layout-breakpoint-small: 600px;
   flex-direction: row;
 
   .logo {
-    padding: 8px 0;
+    padding: 8px 10px;
 
     img {
-      margin: 2px auto;
+      margin: 0 auto;
       width: 15px;
     }
   }
@@ -162,7 +162,7 @@ $layout-breakpoint-small: 600px;
 ul.socialNetworks{
     position: absolute;
     right: 15px;
-    top: -3px;
+    top: -8px;
     display: flex;
    flex-direction: column;
    list-style-type: none;

@@ -69,3 +69,48 @@ overflow: hidden;
         transform: rotateX(90deg);
     }
 }
+
+$layout-breakpoint-small: 600px;
+
+@media (max-width: $layout-breakpoint-small) {
+    .stage-cube-cont {
+width: 50%;
+top: 100px;
+padding-top: 18%;
+margin-left: 10px;
+position: absolute;
+right: 0;
+}
+
+.cubespinner{
+    animation: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+
+    div{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+    .face1{
+        transform: translateZ(50px);
+    }
+     .face2{
+        transform: rotateY(-90deg) translateZ(50px) ;
+    }
+     .face3{
+        transform: rotateY(90deg) rotateZ(90deg) translateZ(50px);
+    }
+     .face4{
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
+    }
+    .face5{
+        transform: rotateY(-90deg) rotateX(90deg) translateZ(50px);
+    }
+}
+}
