@@ -74,12 +74,12 @@ $layout-breakpoint-small: 600px;
 
 @media (max-width: $layout-breakpoint-small) {
     .stage-cube-cont {
-width: 50%;
-top: 100px;
-padding-top: 18%;
-margin-left: 10px;
-position: absolute;
-right: 0;
+        width: 50%;
+        top: 100px;
+        padding-top: 18%;
+        margin-left: 10px;
+        position: absolute;
+        right: 0;
 }
 
 .cubespinner{
@@ -91,7 +91,7 @@ right: 0;
     transform-origin: 100px 100px 0;
     margin-left: calc(50% - 100px);
 
-    div{
+    div {
         position: absolute;
         width: 100px;
         height: 100px;
