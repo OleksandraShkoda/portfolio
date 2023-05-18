@@ -76,3 +76,42 @@
     }
   }
 }
+$layout-breakpoint-small: 600px;
+
+@media (max-width: $layout-breakpoint-small) {
+
+.home-page {
+.text-zone
+{
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    right: 50%;
+}
+h1 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 9px;
+  }
+
+.flat-button {
+    color: #ffd700;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid #ffd700;
+    padding: 5px 8px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    float: left;
+    animation: fadeIn 1s  1.8s backwards;
+    
+}
+}
+}

@@ -38,8 +38,8 @@
 }
 
 .about-page,
-.contact-page{
-    .text-zone{
+.contact-page {
+    .text-zone {
       position: absolute;  
       left: 10%;
       top: 50%;
@@ -50,7 +50,7 @@
       max-height: 90%;
 
 h1{
-   font-size: 45px;
+   font-size: 40px;
    font-family: 'Coolvetica';
    color:#ffd700 ;
    font-weight: 400;
@@ -75,7 +75,7 @@ h1{
     font-size: 18px;
     position: absolute;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 4px;
     color: #ffd700;
     opacity: 0.6;
 }
@@ -105,5 +105,4 @@ p {
 }
 }
     }
-
 

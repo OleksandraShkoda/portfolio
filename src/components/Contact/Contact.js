@@ -68,7 +68,7 @@ const Contact = () => {
         <span>shkoda.aleksandra@gmail.com</span>
     </div>
     <div className='map-wrap'>
-          <MapContainer center={[51.4662897,-0.2250557,17]} zoom={9} scrollWheelZoom={false}>
+          <MapContainer center={[51.4662897,-0.2250557,17]} zoom={9} scrollWheelZoom={true}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     maxZoom={19} />
             <Marker position={[51.4662897,-0.2250557,17]}>

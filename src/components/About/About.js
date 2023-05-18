@@ -22,7 +22,7 @@ const [letterClass, setLetterClass] = useState('text-animate');
                          <AnimatedLetters  letterClass={letterClass} strArr={['A','b','o','u','t', ' ', 'm', 'e']} index={15}/>
                     </h1>
                     <p>I`m very ambitious Junior front-end developer looking for a role in an IT company with opportunity to work and improve my skills.</p>
-                    <p>I`m hardworking, curious and persistent workerthat creates a friendly and supportive atmosphere in the team.
+                    <p>I`m hardworking, curious and persistent worker that creates a friendly and supportive atmosphere in the team.
                     </p>
                     <p> I can define myself as a friendly and positive person, fun of sports, travelling and technologies.</p>
                </div>
