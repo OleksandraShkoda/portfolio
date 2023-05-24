@@ -71,6 +71,7 @@ overflow: hidden;
 }
 
 $layout-breakpoint-small: 600px;
+$layout-breakpoint-xsmall: 490px;
 
 @media (max-width: $layout-breakpoint-small) {
     .stage-cube-cont {
@@ -114,3 +115,8 @@ $layout-breakpoint-small: 600px;
     }
 }
 }
+
+@media (max-width: $layout-breakpoint-xsmall) {
+    .stage-cube-cont {
+        display: none;
+}}

@@ -108,6 +108,8 @@ p {
     }
 
 $layout-breakpoint-small: 600px;
+$layout-breakpoint-xsmall: 490px;
+
 
 @media (max-width: $layout-breakpoint-small) {
 
@@ -167,4 +169,44 @@ h1 {
 }
   }  
     }
+}
+
+@media (max-width: $layout-breakpoint-xsmall) {
+
+.tags {
+    font-size: 15px;
+}
+
+
+
+.container {
+    height: 100%;
+    left: 0;
+}
+
+.about-page,
+.contact-page {
+    .text-zone {
+      position: absolute;  
+      left: 10%;
+      top: 50%;
+      width:80%;
+
+h1{
+   font-size: 40px;
+   font-weight: 400;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   left:10px;
+}
+p {
+    color:#fff;
+    font-style: 13px;
+    font-weight: 300;
+    text-orientation: sideways;
+}
+  }  
+    }
+
 }
